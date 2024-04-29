@@ -55,7 +55,7 @@ section {
 }
 
 .navbar_lg {
-  @apply lg:hidden w-full relative rounded-3xl bg-[#19191A] mx-auto md:max-w-[700px] xl:max-w-[1000px] -z-50 left-0 -translate-y-[80vh] transition-transform duration-300 ease-linear;
+  @apply lg:hidden w-full relative rounded-3xl bg-[#19191A] mx-auto md:max-w-[700px] xl:max-w-[1000px] -z-40 left-0 -translate-y-[80vh] transition-transform duration-300 ease-linear;
 }
 
 .back {
