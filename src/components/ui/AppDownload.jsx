@@ -29,7 +29,7 @@ const AppDownload = () => {
           </div>
         </Link>
         <Link
-          href="/"
+          href='https://expo.dev/artifacts/eas/eec7vW9QxfsHV7LXNTfXnk.apk'
           className="flex h-full items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
         >
           <span className="text-base md:text-xl">Download APK</span>
