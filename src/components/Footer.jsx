@@ -119,20 +119,20 @@ function Footer() {
               <h4 className="text-2xl font-semibold">Community</h4>
               <div className="flex md:items-center gap-5 bg-[#19191A] border border-white/25 justify-evenly py-4 px-3 rounded-full ">
                 <Link
-                  href="/"
+                  href="https://t.me/enetfoundation"
                   className="md:text-4xl text-3xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
                 >
                   <FaTelegramPlane />
                 </Link>
                 <Link
-                  href="/"
+                  href="https://twitter.com/enetfoundation_"
                   className="md:text-4xl text-3xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
                 >
                   <FaTwitter />
                 </Link>
               </div>
               <Link
-                href="/"
+                href="https://enetecosystem.gitbook.io/foundation/terms-and-conditions"
                 className="text-sm hover:text-primary ease-in transition-all duration-300"
               >
                 Terms and Conditions
