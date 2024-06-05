@@ -8,7 +8,7 @@ const AppDownload = () => {
         Download App From
       </h4>
       <div className="grid md:grid-cols-2 lg:flex items-center gap-5 md:gap-8 mt-7 md:mt-10">
-        <Link
+{/*         <Link
           href="/"
           className="flex items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl hover:bg-[#34A853] transition-all ease-linear duration-500"
         >
@@ -17,8 +17,8 @@ const AppDownload = () => {
             <span className="text-xs">Get it on</span>
             <span className="text-base md:text-xl">Google Play</span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+{/*         <Link
           href="/"
           className="flex items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
         >
@@ -27,6 +27,13 @@ const AppDownload = () => {
             <span className="text-xs">Download on the</span>
             <span className="text-base md:text-xl">Apple Store</span>
           </div>
+        </Link> */}
+   <Link
+          href='https://app.enetfoundation.com/'
+        target="_blank"
+          className="flex h-full items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
+        >
+          <span className="text-base md:text-xl">Web App</span>
         </Link>
         <Link
           href='https://expo.dev/artifacts/eas/eec7vW9QxfsHV7LXNTfXnk.apk'
