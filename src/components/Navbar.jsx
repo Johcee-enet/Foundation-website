@@ -152,12 +152,13 @@ function Navbar() {
                     ))}
                   </ul>
                   <div className="flex items-center gap-7">
-                    <Link
-                      href="#download"
-                      className="px-6 lg:text-lg py-2.5 border border-white/25 rounded-full back"
-                    >
-                      Download App
-                    </Link>
+                     <Link
+                  href="https://app.enetfoundation.com/"
+                  target="_blank"
+                  className="px-6 lg:text-lg py-2.5 border border-white/25 rounded-full back"
+                >
+Web App
+                </Link>
                   </div>
                 </div>
               </div>
