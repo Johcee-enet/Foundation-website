@@ -182,10 +182,11 @@ function Navbar() {
               </ul>
               <div className="flex flex-col items-center gap-7 mt-14 px-4">
                 <Link
-                  href="#download"
+                  href="https://app.enetfoundation.com/"
+                  target="_blank"
                   className="px-6 lg:text-lg py-2.5 border border-white/25 rounded-full w-full text-center back"
                 >
-                  Download App
+Web App
                 </Link>
               </div>
             </div>
