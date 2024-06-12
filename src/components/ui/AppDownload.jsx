@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MobileApp from "./MobileApp";
 const AppDownload = () => {
   return (
     <div className="grid justify-center">
@@ -31,16 +32,18 @@ const AppDownload = () => {
           target="_blank"
           className="flex h-full items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
         >
-          <span className="text-base md:text-xl">Web App</span>
+          <span className="text-base md:text-xl mx-auto">Web App</span>
         </Link>
-        <Link
+        <MobileApp />
+        {/* <Link
           href={
             "https://drive.usercontent.google.com/download?id=11GS3D21WFxFeHBKA3afZlbiYkYWFq20g&export=download&authuser=0"
           }
           className="flex h-full items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
         >
+          
           <span className="text-base md:text-xl">Download APK</span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
