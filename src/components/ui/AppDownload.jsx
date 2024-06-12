@@ -34,16 +34,16 @@ const AppDownload = () => {
         >
           <span className="text-base md:text-xl mx-auto">Web App</span>
         </Link>
-        <MobileApp />
-        {/* <Link
+{/*         <MobileApp /> */}
+        <Link
           href={
-            "https://drive.usercontent.google.com/download?id=11GS3D21WFxFeHBKA3afZlbiYkYWFq20g&export=download&authuser=0"
+            "https://drive.google.com/file/d/13mUxtEvdjRFUQssteH2HXR2G4jowQjCF/view?usp=drivesdk"
           }
           className="flex h-full items-center gap-4 bg-[#0B0B0B] py-4 px-7 rounded-xl  border border-white/0 hover:border-white hover:bg-black transition-all ease-linear duration-500"
         >
           
           <span className="text-base md:text-xl">Download APK</span>
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
